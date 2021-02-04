@@ -11,7 +11,7 @@ function aritmatika(n) {
         console.log(n);
     } else {
         aritmatika(n - 1);
-        if (n % 2) {
+        if (n % 2 == 0) {
             console.log(n);
         }
     }
